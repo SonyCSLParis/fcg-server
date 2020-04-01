@@ -34,5 +34,5 @@
 ;; Load init files for different grammars
 ;;(load (babel-pathname :directory '("sharing" "fcg-server") :name "init-test" :type "lisp"))
 ;;(load (babel-pathname :directory '("sharing" "fcg-server") :name "init-portuguese" :type "lisp"))
-(load (babel-pathname :directory '("sharing" "fcg-server") :name "init-english" :type "lisp"))
+;; (load (babel-pathname :directory '("sharing" "fcg-server") :name "init-english" :type "lisp"))
 ;;(load (babel-pathname :directory '("sharing" "fcg-server") :name "init-russian" :type "lisp"))
