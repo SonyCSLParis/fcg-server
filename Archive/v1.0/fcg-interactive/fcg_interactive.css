@@ -1,0 +1,291 @@
+/*------------- Reset browser differences ------------- */
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+/* ------------ Body styles ------------ */
+
+body {
+	background-color: #ffffff;
+	color: #99A3A6;
+	font: 16px/1.3 'Arial',sans-serif;
+}
+
+/* ------ Top Banner ------ */
+
+#logo {
+	text-decoration: none;
+	color: white;
+}
+#logo:visited {
+	color: white;
+}
+
+.banner {
+	height: 70px;
+	background-color: #3c4446;
+	margin-bottom: 20px;
+}
+
+
+
+#backlink {
+	float: left;
+	width: 45%;
+	display: inline-block;
+}
+
+#title {
+	float: center;
+	width: 55%;
+	display: inline-block;
+}
+
+
+.bannertext {
+	text-align: left;
+	padding-top: 15px;
+	font-family: 'Open Sans Condensed',serif;
+	font-weight: bold;
+	color: white;
+	font-size: 25px;
+}
+
+
+.fcg_backlink {
+	text-align: left;
+	padding-top: 19px;
+	padding-left: 25px;
+	font-family: 'Open Sans Condensed',serif;
+	font-weight: bold;
+	color: white;
+	font-size: 18px;
+}
+
+
+.bannertext span {
+	color: #d6441b;
+}
+
+/* ------ Interface (top part) ------*/
+
+.interface {
+	text-align: center;
+	display: block;
+	margin: 0px auto;
+	width: 90%;
+	background-color: #fbfbfb;
+	border: 1px solid #e3e4e6;
+	border-radius: 3px;
+	color: #637277;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.interface p {
+}
+
+
+.ref_web_demo {
+	font-size: 14px;
+}
+
+.ref_supporting_publications {
+	text-align: left;
+	padding-left: 25px;
+	font-size: 12px;
+}
+
+	
+.ref_web_demo a {
+	color: #637277;
+}
+	
+.ref_supporting_publications a {
+	color: #637277;
+}
+
+#reference_field {
+	visibility: hidden;
+	text-align: center;
+	display: block;
+	margin: 0px auto;
+	width: 90%;
+	background-color: #fbfbfb;
+	border: 1px solid #e3e4e6;
+	border-radius: 3px;
+	color: #637277;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.interface h2 {
+	padding-top: 20px;
+}
+
+.formgrammar {
+	display: inline-block;
+	text-align: left;
+	margin: 0 20px 0 20px;
+}
+
+.formcomprehend {
+	display: inline-block;
+	text-align: left;
+	margin: 0 20px 0 20px;
+}
+
+.formformulate {
+	display: inline-block;
+	text-align: left;
+	margin: 0 20px 0 20px;
+}
+
+.formcar {
+	padding-top: 20px;
+	display: inline-block;
+	text-align: left;
+	margin: 0 20px 0 20px;
+}
+
+.textBox {
+	float: left;
+	padding-left: 10px;
+	width: 300px;
+	height: 30px;
+	border-radius: 3px;
+	box-shadow: 0px 3px 3px #e3e4e6;
+	background-color: #f0f1f3;
+	border: 1px solid #d1d1d1;
+	border-radius: 3px;
+	box-shadow: 0px 3px 3px #e3e4e6;
+	margin-bottom: 20px;
+	overflow: hidden;
+	font-size: 15px;
+}
+
+
+.textBox {
+	float: left;
+	padding-left: 10px;
+	width: 300px;
+	height: 30px;
+	border-radius: 3px;
+	box-shadow: 0px 3px 3px #e3e4e6;
+	background-color: #f0f1f3;
+	border: 1px solid #d1d1d1;
+	border-radius: 3px;
+	box-shadow: 0px 3px 3px #e3e4e6;
+	margin-bottom: 20px;
+	overflow: hidden;
+	font-size: 15px;
+}
+
+#leftFormButton {
+	float: left;
+	width: 140px;
+	height: 40px;
+	margin: 0  0  0 0;
+	text-align: center;
+	background-color: #73b4d4;
+	border: none;
+	box-shadow: 3px 3px 3px #efedee;
+	border-radius: 2px;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+#rightFormButton {
+	float: right;
+	width: 140px;
+	height: 40px;
+	margin: 0  0 0 0;
+	text-align: center;
+	background-color: #73b4d4;
+	border: none;
+	box-shadow: 3px 3px 3px #efedee;
+	border-radius: 2px;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+#resetButton {
+	float: right;
+	width: 150px;
+	height: 40px;
+	margin: 0  0 0 0;
+	text-align: center;
+	background-color: #A00;
+	border: none;
+	box-shadow: 3px 3px 3px #efedee;
+	border-radius: 2px;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+#grammarComboBox {
+	float: left;
+	padding-left: 10px;
+	width: 150px;
+	height: 30px;
+	border-radius: 3px;
+	box-shadow: 0px 3px 3px #e3e4e6;
+	background-color: #f0f1f3;
+	border: 1px solid #d1d1d1;
+	border-radius: 3px;
+	box-shadow: 0px 3px 3px #e3e4e6;
+	margin-bottom: 20px;
+	overflow: hidden;
+	font-size: 15px;
+}
+
+
+/* Iframe for showing the result and loading screen*/
+
+#fcgResult {
+	visibility: hidden;
+	float: right;
+	width: 74%;
+	border-style: dotted;
+	border-left: 1;
+	border-right: 1;
+	border-top: 1;
+	border-bottom: 1;
+	height: 2500px;
+}
+
+#cxnInv {
+	border: 0;
+	float: left;
+	width: 24%;
+	height: 2500px;
+}
+
+.site-footer {
+	background-color: #3c4446;
+	position: fixed;
+	bottom: 0;
+	margin-top: -18px; /* negative value of footer height */
+	height: 18px;
+	width: 100%;
+}
+
+.site-footer p {
+	line-height: 18px;
+	text-align: center;
+	color: white;
+	font-size: 9pt;
+}
+
+.site-footer a {
+	color: white;
+	text-decoration: underline;
+}
+
