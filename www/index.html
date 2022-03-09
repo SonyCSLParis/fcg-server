@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <meta charset="utf-8"/>
+
+  <title>FCG Interactive</title>
+
+  <link type="text/css" rel="stylesheet" href="fcg_interactive.css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans Condensed:300italic,300,700" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+  <header class="banner">
+
+    <div id="backlink">
+      <h1 class="fcg_backlink">
+        <a href="https://www.fcg-net.org" id="logo">&#8618; fcg-net<em> <font color=lightgreen>.org</font></em></a>
+      </h1>
+    </div>
+
+    <div id="title">
+      <h1 class="bannertext">
+        <a href="#" id="logo">FCG <span>Interactive</span> <em> </em></a>
+      </h1>
+    </div>
+
+  </header>
+
+    <div class="interface">
+      <div class="formgrammar">
+        <h2>Grammar</h2>
+        <br/>
+        <form class="loginForm">
+          <select name="grammar" id="grammarComboBox" onchange="grammarChosen(this.value)">
+            <option value="" disabled selected>Grammar...</option>
+            <option value="english">English</option>
+          </select></br>
+          <input type="button" id="resetButton" value="Reset" onclick="resetInterface()"/>
+        </form>
+      </div>
+
+      <div class="formcomprehend">
+        <h2>Comprehension</h2>
+        <br/>
+        <form class="loginForm" action="javascript:comprehend()">
+          <input list="utterances" id="utterance"  class="textBox"/><datalist id="utterances"></datalist><br/>
+          <input type="button" id="leftFormButton" value="Comprehend" onclick="comprehend()"/>
+        </form>
+      </div>
+
+      <div class="formformulate">
+        <h2>Production</h2>
+        <br/>
+        <form class="loginForm" action="javascript:produce()">
+          <input list="meanings" id="meaning"  class="textBox"/><datalist id="meanings"></datalist><br/>
+          <input type="button" id="leftFormButton" value="Produce" onclick="produce()"/>
+        </form>
+      </div>
+    </div>
+
+    <div align="center" id="loading">
+      <img src="load_cube.gif" width="150">
+    </div>
+
+    <div class="result" id="comprehension_result">
+      <div>
+      <h2>Comprehending: "<span id="result_utterance_comprehension"></span>"</h2>
+      </div>
+
+      <div>
+      <h3>Constructional analysis:</h3>
+      <div class="graph" id="graph_comprehension"></div>
+      </div>
+
+      <div>
+      <h3>Meaning representation:</h3>
+      <div class="result_meaning_or_utterance" id="result_meaning_comprehension"></div>
+      </div>
+    </div>
+
+    <div class="result" id="production_result">
+      <div>
+      <h2>Producing: <span id="result_meaning_production"></span></h2>
+      </div>
+
+      <div>
+      <h3>Constructional analysis:</h3>
+      <div class="graph" id="graph_production">
+      </div>
+      </div>
+
+      <div>
+      <h3>Utterance:</h3>
+      <div class="result_meaning_or_utterance">
+        "<span id="result_utterance_production"></span>"
+      </div>
+      </div>
+    </div>
+
+
+
+  <script src="fcg_interactive.js"></script>
+
+</body>
+</html>
