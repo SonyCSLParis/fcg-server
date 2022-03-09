@@ -1,5 +1,5 @@
 # fcg-interactive
-FCG Interactive Web Interface, Web Server, and API
+FCG Interactive Web Interface, Web Server, and API. Version 2.0, replaces v1.0.
 
 ## Introduction
 
