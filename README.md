@@ -13,13 +13,13 @@ The code is structured in three folders. The fcg-server and fcg-interactive fold
 
 In order to launch the FCG interactive web application, the following steps need to be undertaken.
 
-1.	The folders fcg-server and fcg-interactive should be moved to Babel’s systems/folder.
+1.	The folders fcg-server and fcg-interactive should be moved to Babel’s systems/folder. Note: if you have a Babel installation (https://gitlab.ai.vub.ac.be/ehai/babel/) from later than March 2022, fcg-server and fcg-interactive are already part of your installation and you can skip this step.
 2.	The path in the ﬁle babel-core/systems/fcg-interactive/run.sh should be adapted according to the place of your Babel installation.
 3.	If necessary, adapt the path to your ccl implementation or (preferably) make a symlink so that it is accessible via the ccl command.
 4.	Open a terminal, navigate to the fcg-interactive folder, enter bash run.sh and wait for about 10 seconds until the web service is active.
 5.	Open index.html in the www folder, choose a grammar, and have fun.
 
-The code was designed for compatibility with the current version of babel-core (https: //gitlab.ai.vub.ac.be/ehai/babel-core – commit af7338892d4e8b22f89c19bf447a272243d6b40e and has been tested using Clozure Com-mon Lisp version 1.12.
+The code was designed for compatibility with the version of babel-core (https: //gitlab.ai.vub.ac.be/ehai/babel-core – commit af7338892d4e8b22f89c19bf447a272243d6b40e and has been tested using Clozure Com-mon Lisp version 1.12.
 
 ## Adding a Grammar to FCG Interactive
 
